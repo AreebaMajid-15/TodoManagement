@@ -1,0 +1,69 @@
+
+    
+#Logout{
+    background-color: rgb(171, 50, 50);
+    border-radius: 5px;
+    color: white;
+ 
+     
+    height: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+#Page{
+    text-align: center;
+}
+#Add-todo{
+    width: 50%;
+    border: 1px solid grey;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(206, 92, 92);
+}
+
+h2{
+    width: 50%;
+  color: rgb(171, 50, 50);
+    text-align: center;
+    margin: auto;
+}
+#form{
+    width: 100%;
+    font-size: 1.2rem;;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+#AddBtn{
+       
+
+    background-color: rgb(171, 50, 50);
+    border-radius: 5px;
+    color: white;
+ 
+     
+    height: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+#Todo-Cont{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.card{
+    border: 1px solid grey;
+}

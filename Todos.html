@@ -5,14 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/Todos.css">
 </head>
 <body>
+<div id="Nav"></div>
+<div id="Page">
+    <h3 id="user-name"></h3>
+    <button id="Logout">Logout</button>
+</div>
+
+<div id="Add-todo">
+    <h2>Add Todo</h2>
+    <form id="form">
+        <label for="Title">Enter Task Title</label>
+        <input id="Title" type="text" placeholder="Enter Tille">
+        <label for="Deadline">Select Task Deadline</label>
+        <input id="Deadline" type="Date">
+        <label for="Priority">Select Priority</label>
+        <select id="Priority">
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+        </select>
+        <button id="AddBtn">Add Todo</button>
+
+    </form>
+</div>
+
+<div id="Todo-Cont"></div>
+
+<div id="foter">
     
-<div id="foter"></div>
+</div>
+
     
 </body>
 <script src="script/navbar.js" type="module"></script>
 <script src="script/foter.js" type="module"></script>
+<script src="script/Todos.js" type="module"></script>
 
     
 
