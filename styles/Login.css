@@ -1,0 +1,35 @@
+#form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    margin: 3rem auto;
+    color: maroon;
+    padding: center;
+    background-color:rgb(245, 146, 146) ;
+    
+}
+#form input{
+    height: 20px;
+    width: 60%;
+    align-self: center;
+}
+select{
+    height: 20px;
+    color: maroon;
+    align-self: center;
+    width: 60%;
+}
+
+
+#submit{
+    background-color: rgb(171, 50, 50);
+    border-radius: 5px;
+    color: white;
+ 
+    width: 60%;
+    height: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
