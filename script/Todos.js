@@ -84,7 +84,7 @@ function displayTodo(arr){
         Priority.textContent = `Priority: ${el.Priority}`
 
        let status  = document.createElement("h4")
-       status.textContent = el.status==true? "Completed":"Pending";
+       status.textContent = el.status==true? "Status- Completed":"Status- Pending";
 
        card.append(Title, Priority, Deadline, status)
        cont.append(card)
