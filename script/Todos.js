@@ -43,7 +43,7 @@ form.addEventListener("submit", function () {
     body: JSON.stringify(todoObj),
   })
     .then(() => {
-      alert("Todod added");
+      alert("Todod added, please refresh the screen to display it");
     })
     .catch((err) => {
       alert("soething went wrong");
