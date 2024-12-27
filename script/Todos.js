@@ -85,8 +85,14 @@ function displayTodo(arr){
 
        let status  = document.createElement("h4")
        status.textContent = el.status==true? "Status- Completed":"Status- Pending";
-
-       card.append(Title, Priority, Deadline, status)
+       
+        let UpdateStatusBtn = document.createElement("button")
+        UpdateStatusBtn.textContent =  "Togle Satus"
+        
+        UpdateStatusBtn.addEventListener("click", function(){
+            updateStatusfun(el,i)
+        })
+       card.append(Title, Priority, Deadline, status, UpdateStatusBtn)
        cont.append(card)
      }) 
 }
@@ -95,3 +101,25 @@ window.onload = async () => {
      let arr = await getTodo();
      displayTodo(arr)
 };
+ // to change the status of todo
+function updateStatusfun(el,i){
+    console.log( "before" , el)
+    let updateTodo= {...el, status:true}
+    console.log("after", updateTodo)
+    let todoID = el.id ;
+    
+    // to add or update changes in backend
+   fetch(`${baseURL}/todos/${todoID}`,{
+        method:"PATCH",
+        headers:{
+            "content-type":"application/json"
+        },
+        body:JSON.stringify(updateTodo)
+    } ).then( () =>{
+        alert("Todo Status updated")
+        window.location.reload()
+    }).catch((err)=>{
+        alert("Something went wrong in updating todo status")
+        console.log(err)
+    })
+}

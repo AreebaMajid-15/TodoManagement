@@ -61,9 +61,26 @@ h2{
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     width: 90%;
-    margin: auto;
+    margin: 30px auto;
 }
 
-.card{
-    border: 1px solid grey;
+.AddBtn{
+    border: 1px solid rgb(231, 114, 114);
+    width: 300px;
+    padding: 0;
+
+}
+.pending{
+    
+    border: 2px solid maroon;
+}
+
+#foter{
+    position: absolute;
+  background-color: rgb(171, 50, 50);
+  width: 100%; 
+ 
+  height: 3rem;
+  color: white;
+  padding: 1.2rem;
 }
