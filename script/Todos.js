@@ -24,7 +24,7 @@ document.getElementById("Logout").addEventListener("click", function () {
   window.location.href = "index.html";
 });
 
-// to get todo task
+// to get todo task from user and oput in backend
 let form = document.getElementById("form");
 form.addEventListener("submit", function () {
   event.preventDefault();

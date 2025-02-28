@@ -27,7 +27,7 @@ form.addEventListener("submit", function () {
             // user not present
              else {
                     alert("user does not exit, please sign up")
-                    window.location.href = "Signup.html"
+                    window.location.href = "signup.html"
                 }
             })
         .catch((err) => {
