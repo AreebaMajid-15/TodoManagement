@@ -6,8 +6,6 @@ Built using **HTML, CSS, and JavaScript**, it provides a **simple and interactiv
 - ✅ Add new tasks.
 - ✅ Mark tasks as completed.
 - ✅ Delete tasks when finished.
-- ✅ View a list of all tasks — pending and completed.
-
 ---
 
 ## ✨ Features
@@ -19,7 +17,6 @@ Built using **HTML, CSS, and JavaScript**, it provides a **simple and interactiv
 | 🗑️ Delete tasks | ✅ Done |
 | 💾 Save tasks using `localStorage` | 🔄 In Progress |
 | 📱 Mobile responsive design | 🔄 In Progress |
-| 🔎 Filter tasks (All / Completed / Pending) | ⏳ Planned |
 
 ---
 
@@ -42,7 +39,6 @@ Built using **HTML, CSS, and JavaScript**, it provides a **simple and interactiv
 2. Open `index.html` directly in your browser.
 3. Use the input field to **add new tasks**.
 4. Click on a task to **mark it as completed**.
-5. Use the ❌ button to **delete a task** when finished.
 
 ---
 
@@ -68,5 +64,4 @@ Built using **HTML, CSS, and JavaScript**, it provides a **simple and interactiv
 | 📖 Write project documentation | ✅ Completed |
 
 
-Let me know if you’d like me to generate a **complete README.md file** for you that you can download! 🚀
 
