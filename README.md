@@ -57,10 +57,9 @@ Built using **HTML, CSS, and JavaScript**, it provides a **simple and interactiv
 | ✍️ Add task functionality | ✅ Completed |
 | ✅ Mark task as completed | ✅ Completed |
 | 🗑️ Delete task functionality | ✅ Completed |
-| 💾 Save tasks to `localStorage` | ⏳ To Do |
-| 📱 Mobile responsiveness improvements | ⏳ To Do |
-| 🔎 Filter tasks (All / Completed / Pending) | ⏳ To Do |
-| 🚀 Deploy to GitHub Pages | ⏳ To Do |
+| 💾 Save tasks to `localStorage` | ✅ Completed |
+| 📱 Mobile responsiveness improvements | ✅ Completed|
+| 🚀 Deploy to GitHub Pages | ✅ Completed |
 | 📖 Write project documentation | ✅ Completed |
 
 
